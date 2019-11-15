@@ -13,4 +13,4 @@ def hello():
     return "Discounts server"
 
 if __name__ == "__main__":      #On running python app.py
-    app.run('0.0.0.0',debug=False)         #Run the flask App
+    app.run('0.0.0.0',debug=True)         #Run the flask App
